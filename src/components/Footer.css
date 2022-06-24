@@ -1,0 +1,25 @@
+.Footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    border-top-color: #DDDDDD;
+    border-top-width: 2px;
+    border-top-style: solid;
+    z-index: 9;
+}
+
+.Footer .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 58px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Footer .right-bottom-icon {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}

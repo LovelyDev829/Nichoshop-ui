@@ -1,0 +1,133 @@
+.Filter {
+    position: relative;
+    width: 560px;
+    padding: 50px 143px 50px 122px;
+    margin: auto;
+    margin-top: 60px;
+    background: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    box-shadow: 6px 6px 4px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+}
+
+.Filter .hidden {
+    display: none;
+}
+
+.Filter .filter-box{
+    width: 560px;
+    height: 40px;
+    margin: auto;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.Filter .filter-box .left {
+    height: 38px;
+    width: 520px;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+    display: flex;
+}
+
+.Filter .filter-box .left .dropbox {
+    position: relative;
+    height: calc(100% - 18px);
+    width: 170px;
+    border-right: 1px solid #CBCBCB;
+    padding: 9px 15px 9px 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Filter .filter-box .left .dropbox .drop-list {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 240px;
+    /* height: 100px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(114, 114, 114, 0.25);
+    padding: 6px 0px 6px 0px;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .drop-item {
+    padding: 3px 10px 3px 10px;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .drop-item:hover {
+    background-color: #edf0ff5a;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .drop-item:hover p{
+    color: #0072BC !important;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .selected {
+    background-color: #EDF0FF !important;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .selected p{
+    color: #0072BC !important;
+}
+
+.Filter .filter-box .left .dropbox .drop-list .drop-item p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    cursor: pointer;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+.Filter .filter-box .left .dropbox svg {
+    cursor: pointer;
+}
+
+.Filter .filter-box .left .item-input {
+    width: 300px;
+    height: 100%;
+    /* background-color: #0072BC; */
+    align-items: center;
+}
+
+.Filter .filter-box .left .item-input input {
+    height: calc(100% - 5px);
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-left: 13px;
+
+}
+
+.Filter .filter-box .right-search-button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #0072BC;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.Filter .filter-box .right-search-button svg {
+    display: block;
+    margin: auto;
+}
+
+.Filter .warning{
+    position: absolute;
+    bottom: 17px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D7111B;
+}
