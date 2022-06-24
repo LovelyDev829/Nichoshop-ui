@@ -1,8 +1,9 @@
-/* .CustomerDetail {
-} */
-
 .CustomerDetail .body {
     min-height: calc(100vh - 340px);
+}
+
+.CustomerDetail .hidden {
+    display: none;
 }
 
 .CustomerDetail .body {
@@ -133,6 +134,7 @@
 
 .CustomerDetail .body .cards .column .items .item .flex{
     display: flex;
+    align-items: flex-start;
 }
 
 .CustomerDetail .body .cards .column .items .item .left {
@@ -203,11 +205,14 @@
 .CustomerDetail .body .cards .column .comment-box{
     width: 100%;
     min-height: 76px;
+    font-family: "Inter";
     font-weight: 400;
     font-size: 18px;
     line-height: 145%;
     outline: none;
     border: none;
+    resize: none;
+    /* overflow: hidden; */
 }
 
 .CustomerDetail .body .cards .flex-space{
@@ -222,6 +227,7 @@
 }
 
 .CustomerDetail .body .cards .checkbox{
+    cursor: pointer;
     transform: scale(1.5);
     margin-right: 10px;
 }
