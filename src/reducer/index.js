@@ -118,7 +118,7 @@ const reducer = (state = initState, action) => {
             }
         }
         case 'DELETE_FILTER': {
-            var tempList = state.customer.filterMenu.list
+            tempList = state.customer.filterMenu.list
             tempList.splice(action.payload.id-1, 1)
             tempList.forEach((item, index)=>{
                 if(index >= action.payload.id-1){

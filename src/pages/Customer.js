@@ -6,7 +6,7 @@ import './Customer.css'
 import { ReactComponent as FilterCancelLogo } from '../assets/svg/customer/filter-cancel.svg'
 
 import { useSelector, useDispatch } from 'react-redux';
-import { selectTopMenuItem, deleteFilter } from '../actions/index';
+import { deleteFilter } from '../actions/index';
 
 function Customer() {
     const filterMenuData = useSelector(state => state.customer.filterMenu)

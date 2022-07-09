@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Header.css'
 import { ReactComponent as MainLogo } from '../assets/svg/header/main-logo.svg'
 import { ReactComponent as RightAlarmLogo } from '../assets/svg/header/right-alarm.svg'

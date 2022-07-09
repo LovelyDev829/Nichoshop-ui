@@ -8,10 +8,10 @@ import { addFilter } from '../actions/index';
 
 function Filter() {
     const chooseList = useSelector(state => state.customer.chooseList)
-    const BottomMenuData = useSelector(state => state.header.BottomMenu)
+    // const BottomMenuData = useSelector(state => state.header.BottomMenu)
     const [ droplistChooseId, setDroplistChooseId ] = useState(1);
     const [ droplistFlag, setDroplistFlage ] = useState(false);
-    const [ warningFlag, setWarningFlag ] = useState(false);
+    const [ warningFlag ] = useState(false);
     const [ filterInput, setFilterInput ] = useState("")
     const dispatch = useDispatch()
     const addFilteR = (string) => {
